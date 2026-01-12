@@ -1,9 +1,42 @@
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
-  background: #f4f4f4;
+  background-color: #f4f6f8;
+  color: #333;
 }
 
 header {
   text-align: center;
+  margin-bottom: 40px;
+}
+
+header a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  background: #0077b5;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0056b3;
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #777;
 }
